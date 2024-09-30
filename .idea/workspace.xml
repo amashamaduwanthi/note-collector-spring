@@ -10,37 +10,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b12b2a4e-f59e-4421-b32b-6065d2f7a080" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/noteCollector/AppInit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/noteCollector/config/WebAppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/noteCollector/config/WebAppRootConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/noteCollector/controller/HealthController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/noteCollector/controller/NoteController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/noteCollector/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/noteCollector/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/noteCollector/dto/SuperDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/noteCollector/dto/impl/NoteDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/noteCollector/dto/impl/UserDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/noteCollector/entity/SuperEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/noteCollector/entity/impl/NoteEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/noteCollector/entity/impl/UserEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/noteCollector/imp/NoteServiceIMPL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/noteCollector/imp/UserServiceIMPL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/noteCollector/service/NoteService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/noteCollector/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/noteCollector/util/AppUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/noteCollector/util/Mapping.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/noteCollector/customStatusCode/SelectedUserStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/noteCollector/dao/NoteDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/noteCollector/dto/NoteStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/noteCollector/dto/UserStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/noteCollector/exception/DataPersistException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/noteCollector/exception/NoteNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/noteCollector/exception/UserNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/noteCollector/config/WebAppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/noteCollector/config/WebAppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/noteCollector/controller/NoteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/noteCollector/controller/NoteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/noteCollector/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/noteCollector/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/noteCollector/dto/impl/NoteDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/noteCollector/dto/impl/NoteDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/noteCollector/dto/impl/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/noteCollector/dto/impl/UserDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/noteCollector/imp/NoteServiceIMPL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/noteCollector/imp/NoteServiceIMPL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/noteCollector/imp/UserServiceIMPL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/noteCollector/imp/UserServiceIMPL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/noteCollector/service/NoteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/noteCollector/service/NoteService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/noteCollector/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/noteCollector/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/noteCollector/util/Mapping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/noteCollector/util/Mapping.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,8 +40,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -103,6 +90,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="lk.ijse.noteCollector.exception" />
       <recent name="lk.ijse.noteCollector.service" />
     </key>
   </component>
@@ -221,7 +209,10 @@
       <workItem from="1726387355409" duration="29000" />
       <workItem from="1726633665130" duration="30000" />
       <workItem from="1727492430619" duration="20103000" />
-      <workItem from="1727582519859" duration="2161000" />
+      <workItem from="1727582519859" duration="4670000" />
+      <workItem from="1727666835895" duration="9932000" />
+      <workItem from="1727679239460" duration="4477000" />
+      <workItem from="1727687719581" duration="3555000" />
     </task>
     <servers />
   </component>
